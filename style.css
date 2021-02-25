@@ -55,6 +55,44 @@ body {
     text-align:justify;
     font:normal 1.2em/150% 'Computer Modern Serif',serif;
 }
+/* experimental dark theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background: #121212;
+  }
+
+  body a {
+    color: #ffffff;
+  }
+  
+  a, u, underline {
+    border-bottom: 1px solid #fff;
+}
+
+::selection {
+    color: #121212;
+    background: #B3FFE3
+    ;
+}
+
+    ::-webkit-scrollbar {
+width: 8px;
+background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+background: #f1f1f1;
+border-radius: 7px;
+}
+
+html {
+    scrollbar-color: #f1f1f1 #121212;
+    scrollbar-width: thin;
+}
+
+}
+
  
 a, u, underline {
     text-decoration:none;
