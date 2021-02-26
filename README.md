@@ -73,5 +73,5 @@ html {
 }
 
 ```
-![ingrownmink4.tumblr.com](beautiful-codes.png)
+
 
