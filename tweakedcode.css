@@ -1,0 +1,95 @@
+::selection {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b2b2b2;
+    border: 3px solid #EFEFEF;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #EFEFEF;
+    border-left: 1px solid #EFEFEF;
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+  background: #3E3E3E; 
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  
+  body {
+    color: white;
+    background: #121212;
+  }
+
+  body a {
+    color: #ffffff;
+  }
+  
+  a, u, underline {
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  
+  i, italic, em {
+        color:#ffffff; text-transform: italic;
+      
+  }
+        
+        b, bold, strong {
+        color:#ffffff; text-transform: bold;
+            
+        }
+
+
+::selection {
+    background: #ffffff;
+    color: #121212;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4e4e4e;
+    border: 3px solid #202020;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #202020;
+    border-left: 1px solid #2c2c2c;
+}
+
+
+::-webkit-scrollbar-thumb:vertical:active {
+  background: #8f8f8f; /* Some darker color when you click it */
+  -webkit-border-radius: 100px;
+}
+
+
+html {
+    scrollbar-color: #4e4e4e #202020;
+    scrollbar-width: thin;
+}
+ }
+  }
+
